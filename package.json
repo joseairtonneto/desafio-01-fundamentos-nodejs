@@ -1,4 +1,12 @@
 {
   "name": "desafio-01-fundamentos-nodejs",
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.9.1",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "upload-csv": "node streams/upload-csv.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0"
+  }
 }
